@@ -25,7 +25,7 @@ public:
     int cap=0;
     int flag = 1;
     int maxfreq=1;
-    int minfreq = 1;
+    
 
     map<int, pair<node *, node *>> freq; // frequency table
     unordered_map<int, node*> mpp; // key pointer
